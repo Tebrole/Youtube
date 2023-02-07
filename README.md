@@ -1,2 +1,2 @@
 # Youtube
-Youtube UX clone created with HTML and CSS
+Youtube interface clone created with HTML and CSS
