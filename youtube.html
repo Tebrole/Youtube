@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube.com Clone</title>
+
+    <link rel="stylesheet" href="youtube-css/general.css">
+    <link rel="stylesheet" href="youtube-css/header.css">
+    <link rel="stylesheet" href="youtube-css/video.css">
+    <link rel="stylesheet" href="youtube-css/sidebar.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="youtube-symbols/hamburger-menu.svg">
+        <img class="youtube-logo" src="youtube-symbols/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class ="search-icon" src="youtube-symbols/search.svg">
+          <div class="tooltip">
+            Search
+          </div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="youtube-symbols/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="youtube-symbols/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="youtube-symbols/notifications.svg">
+          <div class="notifications-count">2</div>
+          <div class="tooltip">Notifications</div>
+        </div class="current-user-picture">
+        <img class="current-user-picture" src="profile-pictures/Tekla.jpg">
+      </div>
+    </div>
+    
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+  <div class="youtube-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/Otto.jpg">
+        <div class="video-time">3:39</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/otto.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            OTTO - About You Now 
+          </p>
+          <p class="video-author">
+            Otto, Coco 	&#38; Clair Clair, Eyedress, and more
+          </p>
+          <p class="video-stats">
+            100K views &#183; 7 days ago
+          </p>
+        </div>  
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/The fall of men.jpg">
+        <div class="video-time">15:07</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/BigThink.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Male inequality, explained by an expert
+          </p>
+          <p class="video-author">
+            Big Think
+          </p>
+          <p class="video-stats">
+            600K views &#183; 3 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/new girl.jpg">
+        <div class="video-time">7:09</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/newgirl.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            new girl moments that need no context
+          </p>
+          <p class="video-author">
+            newgirl channel
+          </p>
+          <p class="video-stats">
+            1.6M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/frog and toad.jpg">
+        <div class="video-time">28:59</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/frogtoad.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Frog and Toad: The Philosophy of Simple Living
+          </p>
+          <p class="video-author">
+            Quality Culture
+          </p>
+          <p class="video-stats">
+            563KK views &#183; 3 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/Svelekit.jpg">
+        <div class="video-time">6:47</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/Jeffrey.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Why SvelteKit?
+          </p>
+          <p class="video-author">
+            Jeffrey Codes Javascript
+          </p>
+          <p class="video-stats">
+            126 views &#183; 12 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/foodinfilms.jpg">
+        <div class="video-time">48:55</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/foodinfilms.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Food In Films - The Best Food Movie Scenes Supercut
+          </p>
+          <p class="video-author">
+            William Adiguna
+          </p>
+          <p class="video-stats">
+            601K views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/stopwastingtime.jpg">
+        <div class="video-time">6:56</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/codewaste.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Stop wasting time when you're learning to code!
+          </p>
+          <p class="video-author">
+            Coder Coder
+          </p>
+          <p class="video-stats">
+            1.3M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/vangogh.jpg">
+        <div class="video-time">44:00</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="profile-pictures/vangogh.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How Van Gogh's Sister-In-Law Made Him A Renowned Painter
+          </p>
+          <p class="video-author">
+            Perspective
+          </p>
+          <p class="video-stats">
+            166K views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  </body>
+</html>
